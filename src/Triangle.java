@@ -5,7 +5,6 @@ class Triangle extends Shape {
     public String getName() {
         return "triangle";
     }
-
     @Override
     public Color color() {
         return Color.yellow;
