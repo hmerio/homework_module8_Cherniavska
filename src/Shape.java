@@ -1,15 +1,6 @@
-abstract class Shape implements GetNameOfShape {
-
-    private String name;
+abstract class Shape{
 
     public String getName() {
-        return name;
+        return "shape";
     }
-
-
-    @Override
-    public void nameMe() {
-        System.out.println("Shape name is [" + getName() + "]");
-    }
-
 }

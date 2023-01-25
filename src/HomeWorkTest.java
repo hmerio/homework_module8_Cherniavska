@@ -4,13 +4,14 @@ class HomeWorkTest {
         Shape triangle = new Triangle();
         Shape point = new Point();
         Shape square = new Square();
-        Shape quad = new Quad();
+//        Shape quad = new Quad();
 
-
-        circle.nameMe();
-        triangle.nameMe();
-        point.nameMe();
-        square.nameMe();
-        quad.nameMe();
+        PrintNameOfShape.printNameOfShape(circle);
+        PrintNameOfShape.printNameOfShape(triangle);
+        PrintNameOfShape.printNameOfShape(point);
+        PrintNameOfShape.printNameOfShape(square);
+//        PrintNameOfShape.printNameOfShape(quad);
+        PrintNameOfShape.printNameOfShape(new Quad());
+        
     }
 }
